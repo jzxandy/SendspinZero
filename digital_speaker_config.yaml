@@ -4,10 +4,10 @@ substitutions:
 external_components:
   - source:
       type: git
-      url: https://github.com/esphome/esphome
-      ref: 36396309bc958a405ff11e9c313b72cecaea3cfe
+      url: https://github.com/jzxandy/SendspinZero
+      ref: main
     components: [i2s_audio]
-    refresh: 0s
+    refresh: 1d
 
 i2s_audio:
   - id: i2s_audio_bus
