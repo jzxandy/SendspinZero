@@ -2,8 +2,10 @@ substitutions:
   media_sample_rate: 44100
 
 external_components:
-  # For SPDIF (TOSLINK) support https://github.com/esphome/esphome/pull/8065:
-  - source: github://pr#8065
+  - source:
+      type: git
+      url: https://github.com/esphome/esphome
+      ref: 36396309bc958a405ff11e9c313b72cecaea3cfe
     components: [i2s_audio]
     refresh: 0s
 
